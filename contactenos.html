@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+    <nav>
+        <!-- UL es la etiqueta que permite crear una listado de opciones,  -->
+        <ul class="menu">
+             <!-- La etiqueta "li" siempre va dentro de un "ul" por que "ul" es la lista y "li" son las opciones de esa lista-->
+            <li class="logo">
+                 <!-- La etiqueta "a" permite agregar un enlace "href" puede direccionar haci una ruta o una carpeta-->
+                <a href="#"></a>
+
+                   <!-- La etiqueta "img" permite agregar imagen del logo 
+                                       "src" puede abrir un archivo que va hacer utilizado dentro del proyecto
+                                            "alt" es una propiedad que se utiliza para posicionar o para verse reflejado en el listado de busqueda de un navegador-->
+                   <img src="./img/girasol.jpg" alt="">
+            </li>
+            <li>
+                    <a href="./index.html">Inicio</a>
+
+            </li>
+            <li>
+                    <a href="contactenos.html">Contactenos</a>
+
+            </li>
+           
+        </ul>
+
+    </nav>
+
+    <div class="container">
+
+                <h1>Formulario Agencia de Viajes</h1>
+
+            <div>
+               <form>
+                    <section class="section-flex">
+                        
+                        <article class="element-form">
+
+                            <div class="label">
+                                <label for="">Destino</label>
+                            </div>
+
+                            <select name="destino" id="destino">
+
+                                <option value="-">Seleccione una Opcion</option>
+                                <option value="1">Bogota</option>
+                                <option value="2">Manizales</option>
+                                <option value="3">Medellin</option>
+                                <option value="4">Cartagena</option>
+
+                            </select>
+
+                        </article>
+
+
+                        <article class="element-form">
+
+                            <div class="label">
+                                <label for="">Numero de Pasajeros</label>
+                            </div>
+
+                            <select name="numerodepasajeros" id="numerodepasajeros">
+
+                                <option value="-">Seleccione una Opcion</option>
+                                <option value="pasajero1">1</option>
+                                <option value="pasajero2">2</option>
+                                <option value="pasajero3">3</option>
+                                <option value="pasajero4">4</option>
+                                <option value="pasajero5">5</option>
+                                <option value="pasajero6">6</option>
+                                <option value="pasajero7">7</option>
+
+                            </select>
+
+                        </article>
+
+
+                    
+
+                        <article class="element-form">
+
+                            <div class="label">
+                                <label for="">Fecha de Salida</label>
+                            </div>
+
+                            <input type="date" name="fechadesalida" id="fechadesalida" >
+                            
+                        </article>
+
+                        <article class="element-form">
+                            <div class="label">
+                                <label for="">Email</label>
+                            </div>
+
+                            <input type="text" name="email" id="email" placeholder="Escribe tu correo">
+                        </article>
+
+                        <article class="element-form">
+                            <div class="label">
+                                <label for="">Numero Telefonico</label>
+                            </div>
+
+                            <input type="number" name="numerotelefonico" id="numerotelefonico" placeholder="Escribe tu telefono">
+                        </article>
+
+
+
+                        <article class="element-form">
+                            <div class="label">
+                                <label for="">Comentario</label>
+                            </div>
+
+                            <textarea name="comentario" id="comentario" cols="140" rows="10"></textarea>
+                        </article>
+
+                        <article class="element-form">
+                            <div class="label">
+                                <label for="">Estoy de acuerdo con los Términos de Privacidad</label>
+                            </div>
+
+                            <input type="checkbox" name="che01" id="che01" value="estoydeacuerdo">Estoy de acuerdo
+                         
+                            
+                        </article>
+                        <br>
+                        
+                        <article class="btn-article">
+                            <button type="submit" onclick="validar()">Enviar Datos</button>
+
+                        </article>
+
+                    </section>
+
+                </form>
+
+           </div>
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>Creado por Andres Ospina</p>
+    </footer>
+
+   <script src="./js/javascript.js "></script>
+
+</body>
+</html>

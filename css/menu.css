@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #F2F3F4 ;
+    color: black ;
+
+}
+
+.menu{
+        display: flex;
+        align-items: center;
+
+}
+
+.menu li{
+         width: 10%;
+         list-style: none;
+}
+
+.menu a {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration:none ;
+}
+
+.menu a:hover{
+         background-color: #D6EAF8;
+         color: black;
+         border: 5px #D6EAF8 solid;
+         border-radius: 3px;
+}
+
+.logo{
+    flex-grow: 3;
+}
+
+.logo img {
+        width: 2%;
+        padding: 1% 1% 1% 1%;
+        border-radius: 60%;
+}
